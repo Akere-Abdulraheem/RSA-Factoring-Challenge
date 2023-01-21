@@ -10,14 +10,10 @@ int div7(int *n);
 
 int main(int argc, char *argv[])
 {
-	/*(void) argv;*/
 	char *storage = argv[1];
-	int count = argc;
 	FILE *xfile = fopen(storage, "r");
 	char line [MAX_LINE_LENGTH];
-	
-	
-	printf("Total arguments:%d\n",count);
+
 	if (argc == 2)
 	{
 		printf("Filename:%s\n\n",storage);
@@ -47,17 +43,13 @@ int main(int argc, char *argv[])
 				{
 					printf("%d = %d * 7\n",n ,div7(&n));
 				}
-				else
-				{
-					/*printf("Try again\n");*/
-				}
 			}
 		}
 		 
 	}
 	else if(argc > 2)
 	{
-		printf("Too much files\n");
+		printf("Too many files\n");
 	}
 	else
 	{

@@ -9,5 +9,6 @@ We have sniffed an unsecured network and found numbers that are used to encrypt 
 
 #factors - is a script that generates factors
 
-#file - is a file containing natural numbers to factor.
+#file - is a file containing random natural numbers to factor.
 
+#arg.c - a file learning about argument with main function.

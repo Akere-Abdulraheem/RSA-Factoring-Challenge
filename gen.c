@@ -7,7 +7,7 @@ void main()
     printf("Enter the number till which you want prime numbers\n");
     scanf("%d",&n);
     
-    printf("Prime numbers are:\n");
+    printf("Prime numbers till %d are:\n", n);
 
     for(i=2;i<=n;i++)
     {
@@ -22,7 +22,7 @@ void main()
          
        if(c==2)
         {
-            printf("%d ",i);
+            printf("%d, ",i);
         }
        
     }
